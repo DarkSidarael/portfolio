@@ -83,10 +83,9 @@ header nav.menu-desktop ul li{
 }
 
 /* ETILO DO MENU MOBILE */
-.btn-abrir-menu i{
-    color: rgb(255, 49, 49);
-    font-size: 40px;
-}
+
+
+
 
 .menu-mobile{
     background: rgba(0, 0, 0, 0.822);
@@ -415,8 +414,14 @@ footer  .btn-social button:hover{
 }
 
 
-@media screen and (max-width: 1020px){
+@media screen and (max-width: 1277px){
     /* CLASSES GERAIS */
+    .btn-abrir-menu i{
+        color: rgb(255, 49, 49);
+        font-size: 40px;
+        position: ;
+    }
+    
     .menu-mobile.abrir-menu{
         width: 70%;
     }
@@ -427,6 +432,10 @@ footer  .btn-social button:hover{
     
     .flex{
         flex-direction: column;
+    }
+
+    .portifolio .flex{
+      align-items: center;
     }
 
     h2.titulo {
@@ -471,6 +480,10 @@ footer  .btn-social button:hover{
     }
 
     /* PORTIFÓLIO */
+    .portifolio .img-port{
+     
+    }
+
     section .portifolio{
         width: 100%;
         max-width: 360px;
